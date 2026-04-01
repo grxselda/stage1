@@ -1,0 +1,38 @@
+{
+  "name": "Performance",
+  "description": "Stores performance video entries for the Watch Performance feed",
+  "collectionName": "performances",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Performance title"
+    },
+    "artist": {
+      "type": "string",
+      "description": "Performer name"
+    },
+    "thumbnail": {
+      "type": "string",
+      "description": "Video thumbnail URL"
+    },
+    "duration": {
+      "type": "integer",
+      "description": "Duration in seconds"
+    },
+    "category": {
+      "type": "string",
+      "description": "Performance category"
+    },
+    "description": {
+      "type": "string",
+      "description": "Performance description"
+    }
+  },
+  "required": [
+    "title",
+    "artist"
+  ],
+  "foreignKeys": [],
+  "created_at": "2026-04-01T09:56:30.179Z",
+  "updated_at": "2026-04-01T09:56:30.179Z"
+}
