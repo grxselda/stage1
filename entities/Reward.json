@@ -1,0 +1,39 @@
+{
+  "name": "Reward",
+  "description": "Stores reward catalog items that users can redeem with XP points",
+  "collectionName": "rewards",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Reward item name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Reward item description"
+    },
+    "xpCost": {
+      "type": "integer",
+      "description": "XP cost to redeem"
+    },
+    "image": {
+      "type": "string",
+      "description": "Reward image URL"
+    },
+    "category": {
+      "type": "string",
+      "description": "Reward category"
+    },
+    "available": {
+      "type": "boolean",
+      "description": "Whether reward is available",
+      "default": true
+    }
+  },
+  "required": [
+    "name",
+    "xpCost"
+  ],
+  "foreignKeys": [],
+  "created_at": "2026-04-01T09:56:27.202Z",
+  "updated_at": "2026-04-01T09:56:27.203Z"
+}
